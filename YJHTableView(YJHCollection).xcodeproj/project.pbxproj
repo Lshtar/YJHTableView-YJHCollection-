@@ -69,9 +69,13 @@
 		CC433645211040B1006E13CE /* ChangeNavColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC433614211040B1006E13CE /* ChangeNavColorViewController.m */; };
 		CC433646211040B1006E13CE /* ChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC433615211040B1006E13CE /* ChangeViewController.m */; };
 		CC433647211040B1006E13CE /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CC433616211040B1006E13CE /* UIImage+Color.m */; };
-		CC5D92D52272A9AD00A5AB18 /* 360x340fanian_aryouxishijie_banner.json in Resources */ = {isa = PBXBuildFile; fileRef = CC5D92D42272A9AD00A5AB18 /* 360x340fanian_aryouxishijie_banner.json */; };
-		CC5D92DA2272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@3x.json in Resources */ = {isa = PBXBuildFile; fileRef = CC5D92D82272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@3x.json */; };
-		CC5D92DB2272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@2x.json in Resources */ = {isa = PBXBuildFile; fileRef = CC5D92D92272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@2x.json */; };
+		CCD6C9D5228114E00045103F /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6C9D4228114E00045103F /* InputViewController.m */; };
+		CCD6C9D9228116310045103F /* PriceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6C9D8228116310045103F /* PriceViewController.m */; };
+		CCD6C9DD22811D940045103F /* 690x340fanian_aryouxishijie_banner@3x.json in Resources */ = {isa = PBXBuildFile; fileRef = CCD6C9DA22811D940045103F /* 690x340fanian_aryouxishijie_banner@3x.json */; };
+		CCD6C9DE22811D940045103F /* 360x340fanian_aryouxishijie_banner.json in Resources */ = {isa = PBXBuildFile; fileRef = CCD6C9DB22811D940045103F /* 360x340fanian_aryouxishijie_banner.json */; };
+		CCD6C9DF22811D940045103F /* 690x340fanian_aryouxishijie_banner@2x.json in Resources */ = {isa = PBXBuildFile; fileRef = CCD6C9DC22811D940045103F /* 690x340fanian_aryouxishijie_banner@2x.json */; };
+		CCD86802228520B800C305B0 /* ChartsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD86801228520B800C305B0 /* ChartsViewController.m */; };
+		CCD86805228520E900C305B0 /* YJHChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD86804228520E900C305B0 /* YJHChartView.m */; };
 		CCFE8E9F216B0503008E648E /* ColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFE8E9E216B0503008E648E /* ColumnViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -207,9 +211,17 @@
 		CC433616211040B1006E13CE /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		CC433648211041F1006E13CE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CC4336492110425F006E13CE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		CC5D92D42272A9AD00A5AB18 /* 360x340fanian_aryouxishijie_banner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 360x340fanian_aryouxishijie_banner.json; sourceTree = "<group>"; };
-		CC5D92D82272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@3x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "690x340fanian_aryouxishijie_banner@3x.json"; sourceTree = "<group>"; };
-		CC5D92D92272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@2x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "690x340fanian_aryouxishijie_banner@2x.json"; sourceTree = "<group>"; };
+		CCD6C9D3228114E00045103F /* InputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		CCD6C9D4228114E00045103F /* InputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		CCD6C9D7228116310045103F /* PriceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriceViewController.h; sourceTree = "<group>"; };
+		CCD6C9D8228116310045103F /* PriceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceViewController.m; sourceTree = "<group>"; };
+		CCD6C9DA22811D940045103F /* 690x340fanian_aryouxishijie_banner@3x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "690x340fanian_aryouxishijie_banner@3x.json"; sourceTree = "<group>"; };
+		CCD6C9DB22811D940045103F /* 360x340fanian_aryouxishijie_banner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 360x340fanian_aryouxishijie_banner.json; sourceTree = "<group>"; };
+		CCD6C9DC22811D940045103F /* 690x340fanian_aryouxishijie_banner@2x.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "690x340fanian_aryouxishijie_banner@2x.json"; sourceTree = "<group>"; };
+		CCD86800228520B800C305B0 /* ChartsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartsViewController.h; sourceTree = "<group>"; };
+		CCD86801228520B800C305B0 /* ChartsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartsViewController.m; sourceTree = "<group>"; };
+		CCD86803228520E900C305B0 /* YJHChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJHChartView.h; sourceTree = "<group>"; };
+		CCD86804228520E900C305B0 /* YJHChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJHChartView.m; sourceTree = "<group>"; };
 		CCFE8E9B216AF758008E648E /* YJHTableView(YJHCollection)-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YJHTableView(YJHCollection)-Bridging-Header.h"; sourceTree = "<group>"; };
 		CCFE8E9E216B0503008E648E /* ColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -302,13 +314,13 @@
 			children = (
 				CC43358321102D22006E13CE /* AppDelegate.h */,
 				CC43358421102D22006E13CE /* AppDelegate.m */,
-				CC5D92D92272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@2x.json */,
-				CC5D92D82272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@3x.json */,
-				CC5D92D42272A9AD00A5AB18 /* 360x340fanian_aryouxishijie_banner.json */,
 				CC43360F211040B1006E13CE /* YJHPractiseCell.h */,
 				CC433607211040B0006E13CE /* YJHPractiseCell.m */,
 				CC43358621102D22006E13CE /* ViewController.h */,
 				CC43358721102D22006E13CE /* ViewController.m */,
+				CCD867FC228520A300C305B0 /* Charts */,
+				CCD6C9D2228114730045103F /* Input */,
+				CCD6C9D6228116160045103F /* Price */,
 				CC11273021746A3F00DA56BC /* Animation */,
 				CC779F66215F20460068DA02 /* Swift */,
 				CC4335C0211040AF006E13CE /* Carousel */,
@@ -466,6 +478,9 @@
 		CC4335FC211040B0006E13CE /* SourceImage */ = {
 			isa = PBXGroup;
 			children = (
+				CCD6C9DB22811D940045103F /* 360x340fanian_aryouxishijie_banner.json */,
+				CCD6C9DC22811D940045103F /* 690x340fanian_aryouxishijie_banner@2x.json */,
+				CCD6C9DA22811D940045103F /* 690x340fanian_aryouxishijie_banner@3x.json */,
 				CC4335FD211040B0006E13CE /* img9.jpg */,
 				CC4335FE211040B0006E13CE /* img8.jpg */,
 				CC4335FF211040B0006E13CE /* img5.jpg */,
@@ -515,6 +530,59 @@
 				CC132CB9216D9C0D00568782 /* ColumnCell.swift */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		CCD6C9D2228114730045103F /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6C9D3228114E00045103F /* InputViewController.h */,
+				CCD6C9D4228114E00045103F /* InputViewController.m */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		CCD6C9D6228116160045103F /* Price */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6C9D7228116310045103F /* PriceViewController.h */,
+				CCD6C9D8228116310045103F /* PriceViewController.m */,
+			);
+			path = Price;
+			sourceTree = "<group>";
+		};
+		CCD867FC228520A300C305B0 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				CCD867FD228520A300C305B0 /* Controller */,
+				CCD867FE228520A300C305B0 /* Model */,
+				CCD867FF228520A300C305B0 /* View */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		CCD867FD228520A300C305B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCD86800228520B800C305B0 /* ChartsViewController.h */,
+				CCD86801228520B800C305B0 /* ChartsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CCD867FE228520A300C305B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCD867FF228520A300C305B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCD86803228520E900C305B0 /* YJHChartView.h */,
+				CCD86804228520E900C305B0 /* YJHChartView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -626,12 +694,12 @@
 				CC43363F211040B1006E13CE /* img1.jpg in Resources */,
 				CC433640211040B1006E13CE /* img10.jpg in Resources */,
 				CC43363D211040B1006E13CE /* img3.jpg in Resources */,
-				CC5D92DB2272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@2x.json in Resources */,
 				CC43359021102D23006E13CE /* LaunchScreen.storyboard in Resources */,
-				CC5D92D52272A9AD00A5AB18 /* 360x340fanian_aryouxishijie_banner.json in Resources */,
 				CC43363B211040B1006E13CE /* img6.jpg in Resources */,
 				CC433639211040B1006E13CE /* img5.jpg in Resources */,
-				CC5D92DA2272AAEE00A5AB18 /* 690x340fanian_aryouxishijie_banner@3x.json in Resources */,
+				CCD6C9DD22811D940045103F /* 690x340fanian_aryouxishijie_banner@3x.json in Resources */,
+				CCD6C9DF22811D940045103F /* 690x340fanian_aryouxishijie_banner@2x.json in Resources */,
+				CCD6C9DE22811D940045103F /* 360x340fanian_aryouxishijie_banner.json in Resources */,
 				CC43363C211040B1006E13CE /* img7.jpg in Resources */,
 				CC433638211040B1006E13CE /* img8.jpg in Resources */,
 				CC433637211040B1006E13CE /* img9.jpg in Resources */,
@@ -685,6 +753,7 @@
 			files = (
 				CC43358821102D22006E13CE /* ViewController.m in Sources */,
 				CC43362C211040B1006E13CE /* NounViewController.m in Sources */,
+				CCD86805228520E900C305B0 /* YJHChartView.m in Sources */,
 				CC132CBF216DD4E300568782 /* SwiftHorizontalViewController.swift in Sources */,
 				CC43359321102D23006E13CE /* main.m in Sources */,
 				CC433646211040B1006E13CE /* ChangeViewController.m in Sources */,
@@ -702,6 +771,7 @@
 				CC433644211040B1006E13CE /* SeleTableCell.m in Sources */,
 				CC43361C211040B1006E13CE /* CarouselViewController.m in Sources */,
 				CC132CBA216D9C0D00568782 /* ColumnCell.swift in Sources */,
+				CCD86802228520B800C305B0 /* ChartsViewController.m in Sources */,
 				CC433643211040B1006E13CE /* SeleTitleCell.m in Sources */,
 				CC433642211040B1006E13CE /* SeleTableViewController.m in Sources */,
 				CC433627211040B1006E13CE /* FallsCollectionLayout.m in Sources */,
@@ -714,6 +784,7 @@
 				CC433621211040B1006E13CE /* CarouselScrollViewController.m in Sources */,
 				CC433636211040B1006E13CE /* DragViewController.m in Sources */,
 				CC433626211040B1006E13CE /* FallsCollectionCell.m in Sources */,
+				CCD6C9D5228114E00045103F /* InputViewController.m in Sources */,
 				CC433632211040B1006E13CE /* HorizontalTableViewCell.m in Sources */,
 				CC433630211040B1006E13CE /* NounCollectionCell.m in Sources */,
 				CC433619211040B1006E13CE /* VisionCell.m in Sources */,
@@ -724,6 +795,7 @@
 				CC433618211040B1006E13CE /* ParallaxCollectionViewController.m in Sources */,
 				CC433645211040B1006E13CE /* ChangeNavColorViewController.m in Sources */,
 				CC433617211040B1006E13CE /* ParallaxCollectionViewCell.m in Sources */,
+				CCD6C9D9228116310045103F /* PriceViewController.m in Sources */,
 				CC132CC1216DD50E00568782 /* SwiftHorizontalCell.swift in Sources */,
 				CC43362D211040B1006E13CE /* NounHeaderFooterViewController.m in Sources */,
 				CC433633211040B1006E13CE /* HorizontalViewController.m in Sources */,

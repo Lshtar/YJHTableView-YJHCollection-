@@ -35,7 +35,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"Carousel";
+    self.title = @"旋转";
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self creatCarouselView];

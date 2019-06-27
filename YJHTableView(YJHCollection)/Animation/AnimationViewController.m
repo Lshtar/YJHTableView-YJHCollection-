@@ -12,6 +12,9 @@
 
 @property (nonatomic, strong) UIButton* but;
 
+
+@property (nonatomic, strong) LOTAnimationView* animationV;
+
 @end
 
 @implementation AnimationViewController
@@ -21,8 +24,24 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"动画";
     
     [self setupAnimation];
+    
+    /*
+     动画 lottie
+     **/
+    //    [self setupView];
+}
+
+
+- (void) setupView
+{
+    _animationV = [LOTAnimationView animationNamed:@"690x340fanian_aryouxishijie_banner"];
+    _animationV.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44);
+    _animationV.loopAnimation = YES;
+    [_animationV play];
+    [self.view addSubview:_animationV];
 }
 
 - (void) setupAnimation

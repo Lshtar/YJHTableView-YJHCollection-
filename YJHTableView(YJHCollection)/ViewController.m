@@ -23,13 +23,14 @@
 #import "ChangeNavColorViewController.h"
 #import "SwiftModule-Swift.h"
 #import "AnimationViewController.h"
+#import "PriceViewController.h"
+#import "InputViewController.h"
+#import "ChartsViewController.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView* tabView;
 @property (nonatomic,strong) NSArray *contentAry;
-
-@property (nonatomic, strong) LOTAnimationView* animationV;
 
 @end
 
@@ -41,22 +42,9 @@
 
 //    self.contentAry = @[@"哈哈哈",@"哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈",@"啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈",@"哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈啊哈哈哈哈"];
     
-      self.contentAry = @[@"两个TableView联动",@"横向滚动",@"瀑布流",@"瀑布流Header悬停",@"视觉差",@"折叠效果",@"两列瀑布流",@"拖动",@"carousel",@"carsouselTableView",@"carsouselScrollView",@"导航栏渐变",@"导航栏颜色渐变",@"Swift横向滚动",@"Swift",@"Animation"];
+      self.contentAry = @[@"两个TableView联动",@"横向滚动",@"瀑布流",@"瀑布流Header悬停",@"视觉差",@"折叠效果",@"两列瀑布流",@"拖动",@"carousel旋转",@"carsouselTableView",@"carsouselScrollView",@"导航栏渐变",@"导航栏颜色渐变",@"Swift横向滚动",@"Swift",@"Animation",@"价钱显示",@"输入限制",@"cahrts"];
    
     [self creatTableView];
-    /*
-     动画
-     **/
-//    [self setupView];
-}
-
-- (void) setupView
-{
-    _animationV = [LOTAnimationView animationNamed:@"690x340fanian_aryouxishijie_banner"];
-    _animationV.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height-44);
-    _animationV.loopAnimation = YES;
-    [_animationV play];
-    [self.view addSubview:_animationV];
 }
 
 - (void) creatTableView
@@ -103,34 +91,10 @@
     if (cell == nil) {
         cell = [[YJHPractiseCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
-//    cell.nameLab.numberOfLines = 0;
+
 //    cell.nameLab.text = self.contentAry[indexPath.row];
 
         cell.desLab.text = self.contentAry[indexPath.row];
-//        NSMutableAttributedString * noteStr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"￥100.%@",@"00"]];
-//
-//    NSRange redRangeTwo = NSMakeRange([[noteStr string] rangeOfString:@"."].location, [[noteStr string] rangeOfString:@"."].length+2);
-//
-//        [noteStr addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:12] range:redRangeTwo];
-//
-//        [cell.desLab setAttributedText:noteStr];
-//        // 创建Attributed
-//        NSMutableAttributedString *noteStr = [[NSMutableAttributedString alloc] initWithString:cell.desLab.text];
-//        // 需要改变的第一个文字的位置
-//        NSUInteger firstLoc = [[noteStr string] rangeOfString:@"金"].location + 1;
-//        // 需要改变的最后一个文字的位置
-//        NSUInteger secondLoc = [[noteStr string] rangeOfString:@"元"].location;
-//        // 需要改变的区间
-//        NSRange range = NSMakeRange(firstLoc, secondLoc - firstLoc);
-//        // 改变颜色
-//        [noteStr addAttribute:NSForegroundColorAttributeName value:[UIColor greenColor] range:range];
-//        // 改变字体大小及类型
-//        [noteStr addAttribute:NSFontAttributeName value:[UIFont fontWithName:@"Helvetica-BoldOblique" size:27] range:range];
-//        // 为label添加Attributed
-//        [cell.desLab setAttributedText:noteStr];
-      
-        
-        //[cell.desLab sizeToFit];
     
     return cell;
 }
@@ -211,6 +175,18 @@
     {
         AnimationViewController* animationVController = [[AnimationViewController alloc] init];
         [self.navigationController pushViewController:animationVController animated:YES];
+    }else if (indexPath.row == 16)
+    {
+        PriceViewController* priceVController = [[PriceViewController alloc] init];
+        [self.navigationController pushViewController:priceVController animated:YES];
+    }else if (indexPath.row == 17)
+    {
+        InputViewController* inputVController = [[InputViewController alloc] init];
+        [self.navigationController pushViewController:inputVController animated:YES];
+    }else if (indexPath.row == 18)
+    {
+        ChartsViewController* chartsVController = [[ChartsViewController alloc] init];
+        [self.navigationController pushViewController:chartsVController animated:YES];
     }
 }
 
